@@ -81,7 +81,8 @@ export const config = {
   // but try to navigate back to the login page.
   matcher: [
     '/panel/:path*', // Apply to all routes under /panel
-    '/login',        // Apply to the login route
+    '/login',   
+         // Apply to the login route
     // Add other protected routes/paths here if needed, e.g., '/dashboard/:path*'
   ],
 };
